@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;;
+    font-family: Roboto, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.Header {
+    height: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.BG {
+    background-color: #FFFFFF;
+}
+
+.Header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-bottom: 0.7px solid #dbdbdb;
+}
+
+.Header-top-left i {
+    position: relative;
+    top: -10px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.Header-top-left img {
+    height: 32px;
+}
+
+.Header-top-middle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Header-search {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0.7px solid #dbdbdb;
+    width: 580px;
+    gap: 8px;
+}
+
+.Header-search input {
+    all: unset;
+    flex-grow: 1;
+    padding-left: 16px;
+}
+
+.Header-search button {
+    all: unset;
+    height: 100%;
+    cursor: pointer;
+    border: 0.7px solid #dbdbdb;
+    background-color: #f8f8f8;
+}
+
+.Header-search i {
+    width: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Header-voice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Header-voice i {
+    background: transparent;
+}
+
+.Header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.Header-top-right i {
+    background-color: #FFFFFF;
+}
+
+.Header-top-right img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.Header-bottom {
+    padding: 12px;
+    box-sizing: border-box;
+    border-bottom: 0.7px solid #dbdbdb;
+}
+
+.Header-bottom ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Header-bottom li {
+    border: 0.7px solid #dbdbdb;
+    padding: 6px 9px;
+    border-radius: 30px;
+    list-style: none;
+}
+
+.Side-bar {
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.SB-header i {
+    position: relative;
+    top: -10px;
+    left: -35px;
+    font-size: 23px;
+}
+
+.SB-header img {
+    margin-left: -10px;
+    height: 38px;
+}
