@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-family: Roboto, Arial, sans-serif;
 }
 
 body {
@@ -167,8 +166,13 @@ body {
 }
 
 .SB-container {
-    overflow-y: auto;
+    overflow: hidden;
     flex-grow: 1;
+    padding-right: 10px;
+}
+
+.SB-container:hover {
+    overflow-y: auto;
 }
 
 .SB-list {
@@ -177,13 +181,17 @@ body {
 }
 
 .SB-item {
-    margin: 0 19px;
+    margin: 0 10px;
     padding: 7px;
     display: flex;
     justify-content:flex-start ;
     align-items: center;
     background-color: #FFFFFF;
     gap: 20px;
+    font-size: 18px;
+}
+
+.SB-item h4 {
     font-size: 18px;
 }
 
@@ -194,6 +202,10 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
 }
 
 .SB-item img {
@@ -202,5 +214,42 @@ body {
 }
 
 .SB-item i {
-    font-size: 24px;
+    font-size: 15px;
+}
+
+.SB-list-footer {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 10px 20px;
+    color: #292929;
+}
+
+.Contents {
+    margin-top: 135px;
+    margin-left: 340px;
+    margin-right: 75px;
+}
+
+.Contents-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+}
+
+.Contents-item {
+    height: 325px;
+    width: 350px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.Contents-item img{
+    height: 220px;
+    width: 350px;
+}
+
+.Contents-item p {
+    color: #949494;
 }

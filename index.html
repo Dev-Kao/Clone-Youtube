@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollbar.css">
     <title>Youtube</title>
 </head>
 <body>
-   <header>
-        <div class="Container">
-            <div class="Header">
+    <div id="Container">
+        <div class="Header">
                 <div class="Header-top BG">
                     <div class="Header-top-left BG">
                         <i class="fa-solid fa-bars"></i>
@@ -49,116 +52,229 @@
                         <li>New Proposal</li>
                     </ul>
                 </div>
+        </div>
+        <div class="Side-bar BG">
+            <div class="SB-header BG">
+                <i class="fa-solid fa-bars"></i>
+                            <img class="BG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/1280px-YouTube_Logo_%282013-2017%29.svg.png" alt="">
+            </div>
+            <div class="SB-container">
+                <ul class="SB-list ">
+                    <li class="SB-item">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home page</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-compass"></i>
+                        <span>Discover</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-circle-play"></i>
+                        <span>Shorts</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <span>Subriber</span>
+                    </li>
+                </ul>
+                <ul class="SB-list ">
+                    <li class="SB-item">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Library</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-compass"></i>
+                        <span>Videos watched</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span>Watch it later</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>Videos liked</span>
+                    </li>
+                </ul>
+                <ul class="SB-list">
+                    <li class="SB-item">
+                        <h4>Subscribe Channel</h4>
+                    </li>
+                    <li class="SB-item">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu8S3ELNys_kaRJlyANxJs2ccYIfWRT6Cw4NWR9h9Q=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        <span>devaslife</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-circle-plus" style="font-size: 22px;"></i>
+                        <span>Check out the channels</span>
+                    </li>
+                </ul>
+                <ul class="SB-list">
+                    <li class="SB-item">
+                        <h4>DISCOVER</h4>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Game</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-trophy"></i>
+                        <span>Sport</span>
+                    </li>
+                </ul>
+                <ul class="SB-list ">
+                    <li class="SB-item">
+                        <h4>OTHER YOUTUBE SERVICES</h4>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Creator Studio</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-compass"></i>
+                        <span>Youtube Music</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span>Youtube Kids</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>Youtube TV</span>
+                    </li>
+                </ul>
+                <ul class="SB-list ">
+                    <li class="SB-item">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Setting</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-brands fa-font-awesome"></i>
+                        <span>Report history</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-circle-question"></i>
+                        <span>Help</span>
+                    </li>
+                    <li class="SB-item">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>Send feedback</span>
+                    </li>
+                </ul>
+                <ul class="SB-list-footer">
+                    <li>Introduce</li>
+                    <li>Newspapers</li>
+                    <li>License</li>
+                    <li>Contact us</li>
+                    <li>Creator</li>
+                    <li>Advertisement</li>
+                    <li>Developers</li>
+                </ul>
+                <ul class="SB-list-footer">
+                    <li>Rules</li>
+                    <li>Privacy</li>
+                    <li>Policy and safety</li>
+                    <li>How YouTube works</li>
+                    <li>Try new features</li>
+                </ul>
+                <ul class="SB-list-footer" style="font-size: 10px; color: #606060;;">
+                    <li>© 2022 Google LLC</li>
+                </ul>
             </div>
         </div>
-   </header>
-   <div class="Side-bar BG">
-        <div class="SB-header BG">
-            <i class="fa-solid fa-bars"></i>
-                        <img class="BG" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/1280px-YouTube_Logo_%282013-2017%29.svg.png" alt="">
-        </div>
-        <div class="SB-container">
-            <ul class="SB-list ">
-                <li class="SB-item">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Home page</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-compass"></i>
-                    <span>Discover</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-circle-play"></i>
-                    <span>Shorts</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-brands fa-square-youtube"></i>
-                    <span>Subriber</span>
-                </li>
-            </ul>
-            <ul class="SB-list ">
-                <li class="SB-item">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Library</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-compass"></i>
-                    <span>Videos watched</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span>Watch it later</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-clock"></i>
-                    <span>Videos liked</span>
-                </li>
-            </ul>
-            <ul class="SB-list">
-                <li class="SB-item">
-                    <h3>Subscribe Channel</h3>
-                </li>
-                <li class="SB-item">
-                    <img src="https://yt3.ggpht.com/ytc/AMLnZu8S3ELNys_kaRJlyANxJs2ccYIfWRT6Cw4NWR9h9Q=s88-c-k-c0x00ffffff-no-rj" alt="">
-                    <span>devaslife</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-circle-plus"></i>
-                    <span>Check out the channel</span>
-                </li>
-            </ul>
-            <ul class="SB-list">
-                <li class="SB-item">
-                    <h4>DISCOVER</h4>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-gamepad"></i>
-                    <span>Game</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-trophy"></i>
-                    <span>Sport</span>
-                </li>
-            </ul>
-            <ul class="SB-list ">
-                <li class="SB-item">
-                    <h4>OTHER YOUTUBE SERVICES</h4>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Creator Studio</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-compass"></i>
-                    <span>Youtube Music</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span>Youtube Kids</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-clock"></i>
-                    <span>Youtube TV</span>
-                </li>
-            </ul>
-            <ul class="SB-list ">
-                <li class="SB-item">
-                    <i class="fa-solid fa-gear"></i>
-                    <span>Setting</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-brands fa-font-awesome"></i>
-                    <span>Report history</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <span>Help</span>
-                </li>
-                <li class="SB-item">
-                    <i class="fa-regular fa-comment-dots"></i>
-                    <span>Send feedback</span>
-                </li>
-            </ul>
+        <div class="Contents">
+            <div class="Contents-items">
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/4ZbcmPSzQdU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2A5p9dz12RZbbPOlfFz7nVJZWIQ" alt="">
+                    <h4>Function Login, Register Using Javascript</h4>
+                    <p>Vi Tran</p>
+                    <p>7.9 N views - 4 months ago</p>
+                </div>
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/ogkbC0uxWTE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDsFgaX_8GvpxvQBLWh8JJ8uzCxbg" alt="">
+                    <h4>The secret to putting your website online is very easy with Github Pages</h4>
+                    <p>evondev</p>
+                    <p>44 N views - 1 years ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/myfaX0VtFE4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVmajKPHWLxNVWYe1PgQIMAoExWw" alt="">
+                    <h4>(FO4) BO BO BO BO BO BO BO BO BO</h4>
+                    <p>My Name Is Bo</p>
+                    <p>164 N views - 12 hours ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/Wlu4MsBnjuk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDnKRmsNsjZrBbjB_34ep_pKjx2w" alt="">
+                    <h4>ASMR Programming - Coding a Snake Game - No Talking</h4>
+                    <p>Servet Gulnaroglu</p>
+                    <p>445 N views - 8 months ago</p>
+                </div>
+            
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/CZTCciHE72I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBw8LILLX_G81t6jc0cndyqxPWOJQ" alt="">
+                    <h4>How To Make Animated Website Design Using HTML And CSS Step By Step Tutorial 2020</h4>
+                    <p>Easy Tutorials</p>
+                    <p>987 N views - 2 years ago</p>
+                </div>
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/m5OsFyZD5hs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6J1vq2ZCHVPxlq_nEX6vtHrjkhg" alt="">
+                    <h4>Basic Slick Slider User Guide for Beginners</h4>
+                    <p>evondev</p>
+                    <p>18 N views - 9 months ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/an_webp/bWJHjD4YU4k/mqdefault_6s.webp?du=3000&sqp=CJyrs5gG&rs=AOn4CLCQaN5XK8tgVktSrf1bYdki1rxldQ" alt="">
+                    <h4>How to improve UI/UX for Developer?</h4>
+                    <p>evondev</p>
+                    <p>11 N views - 1 years ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/jrTMMG0zJyI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBujIUM4WDOBFmtsncQ2dykoDL0rw" alt="">
+                    <h4>Samurai Japanese Lofi HipHopMix</h4>
+                    <p>the bootleg boy</p>
+                    <p>52 million views - 4 years ago</p>
+                </div>  
+            
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/4ZbcmPSzQdU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2A5p9dz12RZbbPOlfFz7nVJZWIQ" alt="">
+                    <h4>Function Login, Register Using Javascript</h4>
+                    <p>Vi Tran</p>
+                    <p>7.9 N views - 4 months ago</p>
+                </div>
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/ogkbC0uxWTE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDsFgaX_8GvpxvQBLWh8JJ8uzCxbg" alt="">
+                    <h4>The secret to putting your website online is very easy with Github Pages</h4>
+                    <p>evondev</p>
+                    <p>44 N views - 1 years ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/myfaX0VtFE4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVmajKPHWLxNVWYe1PgQIMAoExWw" alt="">
+                    <h4>(FO4) BO BO BO BO BO BO BO BO BO</h4>
+                    <p>My Name Is Bo</p>
+                    <p>164 N views - 12 hours ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/Wlu4MsBnjuk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDnKRmsNsjZrBbjB_34ep_pKjx2w" alt="">
+                    <h4>ASMR Programming - Coding a Snake Game - No Talking</h4>
+                    <p>Servet Gulnaroglu</p>
+                    <p>445 N views - 8 months ago</p>
+                </div>
+            
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/CZTCciHE72I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBw8LILLX_G81t6jc0cndyqxPWOJQ" alt="">
+                    <h4>How To Make Animated Website Design Using HTML And CSS Step By Step Tutorial 2020</h4>
+                    <p>Easy Tutorials</p>
+                    <p>987 N views - 2 years ago</p>
+                </div>
+                <div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/m5OsFyZD5hs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6J1vq2ZCHVPxlq_nEX6vtHrjkhg" alt="">
+                    <h4>Basic Slick Slider User Guide for Beginners</h4>
+                    <p>evondev</p>
+                    <p>18 N views - 9 months ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/an_webp/bWJHjD4YU4k/mqdefault_6s.webp?du=3000&sqp=CJyrs5gG&rs=AOn4CLCQaN5XK8tgVktSrf1bYdki1rxldQ" alt="">
+                    <h4>How to improve UI/UX for Developer?</h4>
+                    <p>evondev</p>
+                    <p>11 N views - 1 years ago</p>
+                </div><div class="Contents-item">
+                    <img src="https://i.ytimg.com/vi/jrTMMG0zJyI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBujIUM4WDOBFmtsncQ2dykoDL0rw" alt="">
+                    <h4>Samurai Japanese Lofi HipHopMix</h4>
+                    <p>the bootleg boy</p>
+                    <p>52 million views - 4 years ago</p>
+                </div>  
+            </div>
         </div>
    </div>
 </body>
